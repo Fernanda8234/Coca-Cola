@@ -94,6 +94,13 @@ footer div {
     width: 64px;
 }
 
+.mapa{
+    transition: transform 0.3s ease;
+}
+.mapa:hover{
+    transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
     header {
         padding-left: 25px;
